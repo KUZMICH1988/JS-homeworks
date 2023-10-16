@@ -19,13 +19,12 @@
 //    let code=prompt("Ввведите шестизначное число", "123456");
 
 
-//  if ( code[0] + code[1] + code[2] == code[3] + code[4] + code[5] ) {
+//  if ( +code[0] + +code[1] + +code[2] == + code[3] + +code[4] + +code[5] ) {
 //      console.log("Да.");
 //  }
 //  else{
 //      console.log("Нет.");
 //  }
-
 
 
 
@@ -219,3 +218,5 @@
 // }
 
 // alert("Месяц " + month + " Время года: " + partOfYear);
+
+
