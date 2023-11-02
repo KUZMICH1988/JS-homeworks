@@ -392,12 +392,28 @@
 
 let email = prompt('Enter the email', 'sushkin@gmail.com');
 
+
 function checkEmail(email) {
-    
+
+    for (let i = 0; i < email.length; i++) {
+       
+        if ((email[i] >=65 && email[i]<=90) && (email[i] >=97 && email[i]<=122)) {
+            console.log(true); 
+        }
 
 
 
-    alert('email is suitable')
+
+    }
+
+
+//    return true;
 }
 
-checkEmail(email)
+
+console.log(checkEmail(email))
+
+// let a = checkEmail(email)
+// console.log(a);
+
+// console.log(String.fromCharCode(1040))
